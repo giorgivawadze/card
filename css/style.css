@@ -1,6 +1,4 @@
-body {
-    max-width: 125rem;
-}
+
 .Card {
   background-color: #e0fbfc;
   width: 25rem;
@@ -8,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 10%;
-  margin:8rem auto;
+  margin:5rem auto;
   box-shadow: 0 0 4px 1.5px gray;
 
 }
