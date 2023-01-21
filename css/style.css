@@ -1,0 +1,152 @@
+
+.Card {
+  background-color: #e0fbfc;
+  width: 25rem;
+  height: 34.25rem;
+  border-radius: 10%;
+  margin: 7.5rem auto;
+  box-shadow: 0 0 4px 1.5px gray;
+
+}
+.imgdiv {
+    width: 9.125rem;
+    height: 9.125rem;
+    margin: 0 auto;
+    padding-top:2rem ; 
+}
+.imgdiv img {
+    width: 9.125rem;
+    height: 9.125rem;
+    border-radius: 50%;
+    border : solid 2px blue;
+}
+.textdiv {
+  padding-top:50px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.textdiv h1 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #051821;
+} 
+.span1 {
+    font-size: 1.3rem;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.spaninspan {
+    color: rgb(55, 6, 234);
+    font-family: 'Unbounded', cursive;
+    text-shadow: 2px 3px 4px #fff;
+}
+.span2 {
+   font-size: 1rem;
+   width: 16rem;
+   margin-left: 2rem;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: bolder;
+
+}
+.divofcontact {
+    width: 20rem;
+    margin-top: 1.25rem;
+    margin-left:8rem;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.divofcontact span {
+    font-size: 1.5rem;
+    color: #051821;
+    font-family: 'Roboto Mono', monospace;
+}
+.iconsdiv {
+    width: 10rem;
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+
+}
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+.fa-instagram:hover {
+    color: purple;
+}
+.fa-linkedin-in:hover {
+    color: #0072b1 ;
+}
+.fa-github:hover {
+    color: #171515;
+}
+.fa-instagram  {
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+.fa-linkedin-in {
+    padding-right: .7rem;
+}
+.divofline {
+    width: 20rem;
+    height: 2px;
+    border-radius: 2px;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    background-color: rgb(62, 62, 62);
+}
+.contactandhire {
+    width: 25rem;
+    display: flex;
+    margin-left:2.5rem;
+    margin-top: 2rem;
+}
+.contact {
+    background-color: rgb(88, 73, 43);
+    width: 9rem;
+    height: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+
+}
+.hire {
+    width: 9rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    background-color: #96570f;
+    transition: .3s ease;
+}
+.contact:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    box-shadow:  4px 3px 5px gray;
+}
+.hire:hover {
+    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  box-shadow:  4px 3px 5px gray;
+}
+.contact span {
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hire span {
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
