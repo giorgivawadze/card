@@ -1,4 +1,7 @@
-
+body {
+    max-width: 2000px;
+    height: 1700px;
+}
 .Card {
   background-color: #e0fbfc;
   width: 25rem;
