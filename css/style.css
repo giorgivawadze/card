@@ -1,13 +1,14 @@
 body {
-    max-width: 2000px;
-    height: 600px;
+    max-width: 125rem;
 }
 .Card {
   background-color: #e0fbfc;
   width: 25rem;
   height: 34.25rem;
+  display: flex;
+  flex-direction: column;
   border-radius: 10%;
-  margin: 7.5rem auto;
+  margin:8rem auto;
   box-shadow: 0 0 4px 1.5px gray;
 
 }
@@ -134,15 +135,9 @@ body {
     transition: .3s ease;
 }
 .contact:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     box-shadow:  4px 3px 5px gray;
 }
 .hire:hover {
-    transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
   box-shadow:  4px 3px 5px gray;
 }
 .contact span {
